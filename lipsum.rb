@@ -26,7 +26,7 @@ Ramps meditation twee, cronut cliche austin plaid four loko trust fund.
 Yuccie bitters four dollar toast, PBR&B succulents normcore neutra tofu humblebrag celiac migas disrupt food truck.
 Post-ironic gentrify hoodie single-origin coffee vaporware fam. Mumblecore deep v swag venmo selvage.".freeze
 
-num.times do
+(num < 1 ? 1 : num).times do
   case lipsum_wanted
   when '1'
     puts Original.to_s
