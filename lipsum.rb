@@ -30,15 +30,15 @@ Post-ironic gentrify hoodie single-origin coffee vaporware fam. Mumblecore deep 
   case lipsum_wanted
   when '1'
     puts original.to_s
-    system("echo \"#{original}\" | pbcopy")
+    system("echo \"#{original * num}\" | pbcopy")
 
   when '2'
     puts samuel.to_s
-    system("echo \"#{samuel}\" | pbcopy")
+    system("echo \"#{samuel * num}\" | pbcopy")
 
   when '3'
     puts hipster.to_s
-    system("echo \"#{hipster}\" | pbcopy")
+    system("echo \"#{hipster * num}\" | pbcopy")
 
   else
     puts "Please select an option 1, 2, or 3 and then a number multiplier"
